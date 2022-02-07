@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+width: 100%;
+display: flex;
+justify-content: space-around;
+background: #009432;
+padding: 10px;
+}
+nav a{
+    color: #fafafa;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #006266;
+    transition: all 0.5s ;
+    border-radius: 14px;
+   
+}
